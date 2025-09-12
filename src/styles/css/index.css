@@ -157,6 +157,7 @@ body {
 .hero .hero-card .navigation-buttons button:hover {
   background: #7c8aa0;
 }
+
 @media (max-width: 700px) {
   .hero {
     height: 60vh;
@@ -345,6 +346,11 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   gap: 1rem;
+}
+@media (min-width: 1500px) {
+  .services-section .services-grid {
+    padding: 2rem 20rem;
+  }
 }
 .services-section .services-grid .service-card {
   padding: 2rem 1rem;
@@ -544,6 +550,11 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
+@media (min-width: 1500px) {
+  .projects-section .proj-container .project-gallery {
+    padding-right: 8rem;
+  }
+}
 @media (max-width: 700px) {
   .projects-section .proj-container .project-gallery {
     display: flex;
@@ -596,6 +607,11 @@ body {
   .projects-section .proj-container .project-gallery .pagination {
     flex-direction: row;
     gap: 1rem;
+  }
+}
+@media (min-width: 1500px) {
+  .projects-section .proj-container .project-gallery .pagination {
+    padding-right: 12rem;
   }
 }
 .projects-section .proj-container .project-gallery .pagination .nav-btn {
