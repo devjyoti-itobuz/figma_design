@@ -191,7 +191,7 @@ body {
 }
 .reputation-section .section-title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 32px;
   font-weight: bold;
   color: #1e1e1e;
   margin-bottom: 3rem;
@@ -337,7 +337,7 @@ body {
   text-align: center;
 }
 .services-section .section-title {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 2.5rem;
   color: #1e1e1e;
@@ -507,7 +507,7 @@ body {
   min-width: 150px;
 }
 .projects-section .proj-container .filters h2 {
-  font-size: 1.5rem;
+  font-size: 32px;
   color: #1e1e1e;
   margin-bottom: 1rem;
 }
@@ -562,6 +562,7 @@ body {
   }
   .projects-section .proj-container .project-gallery .project-card {
     display: none;
+    margin: 0 auto;
   }
   .projects-section .proj-container .project-gallery .project-card:nth-child(1) {
     display: block;
@@ -631,6 +632,11 @@ body {
 .projects-section .proj-container .project-gallery .pagination .nav-btn span {
   font-size: 24px;
   padding: 0 10px;
+}
+@media (max-width: 540px) {
+  .projects-section .proj-container .project-gallery .pagination .nav-btn span {
+    padding: 0 5px;
+  }
 }
 .projects-section .proj-container .project-gallery .pagination .nav-btn:hover {
   background: #7c8aa0;
@@ -956,13 +962,13 @@ body {
   text-align: center;
 }
 .contact-section .contact-container h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
   color: #1e1e1e;
   margin-bottom: 10px;
 }
 .contact-section .contact-container p {
-  font-size: 16px;
+  font-size: 20px;
   color: #7c8aa0;
   margin-bottom: 30px;
   line-height: 1.6;

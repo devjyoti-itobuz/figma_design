@@ -650,6 +650,7 @@ body {
 
                 .project-card {
                     display: none;
+                    margin: 0 auto;
 
                     &:nth-child(1) {
                         display: block;
@@ -720,9 +721,14 @@ body {
                     justify-content: center;
                     align-items: center;
 
+
                     span {
                         font-size: 24px;
                         padding: 0 10px;
+
+                        @media (max-width: 540px) {
+                            padding: 0 5px;
+                        }
                     }
 
                     &:hover {
