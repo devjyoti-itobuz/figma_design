@@ -289,17 +289,19 @@ body {
 }
 .about-us .about-wrapper .about-content h2 {
   font-size: 1.8rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .about-us .about-wrapper .about-content p {
   font-size: 20px;
   line-height: 1.6;
   margin-bottom: 1rem;
-  max-width: 330px;
+  max-width: 380px;
 }
 .about-us .about-wrapper .about-content .btn {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   background-color: #ffffff;
   color: #2947A9;
   font-size: 18px;
